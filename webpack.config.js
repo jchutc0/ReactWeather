@@ -1,7 +1,7 @@
 module.exports = {
 	entry: './app/app.jsx',
 	output: {
-		path: '/var/www/vhosts/ec2-52-201-173-181.compute-1.amazonaws.com/react/weather',
+		path: './public',
 		filename: './bundle.js'
 	},
 	resolve: {
